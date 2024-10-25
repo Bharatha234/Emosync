@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy_Songs</title>
+    <!-- <link rel="stylesheet" href="happy.css"> -->
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* background-image: linear-gradient(rgba(192, 190, 236, 0.5),rgba(224, 224, 235, 0.5)),url(Images/img4.png);
+        background-size: cover;
+        background-repeat: no-repeat; */
+    }
+
+    img{
+        width: 300px;
+        height: auto;
+        margin: 5px;
+        border: 6px double black;
+    }   
+
+    .img{
+        width: 500px;
+        height: 500px;
+        border: 4px solid black;
+        margin: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(139, 228, 240, 0.902),rgba(231, 96, 125, 0.5)),url(../static/playlist\ back.jpeg);
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        justify-content: center;
+        text-align: center;
+    }
+    .box{
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+        transition: 1s;
+    }
+    .box img:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    </style>
+</head>
+
+<body>
+        <div class="header">
+            <div class="box">
+                <a href="https://open.spotify.com/playlist/3G0tFZVrbzzMRpTMewijcU?si=5Jj3LsDBTE-5UBupkhe-KQ&pi=qPlSdq6FRGGYA"><img src="../static/Happy_Songs/happy telugu.png"></a>
+                <a href="https://open.spotify.com/playlist/57ylL0Gzbou07UuCe7Nk2n?si=4YpN-T01Tny4R608qmzROA"><img src="../static/Happy_Songs/happy english.png"></a>
+                <a href="https://open.spotify.com/playlist/4I048mX18BCKNS34uGGZOc?si=nlkgga7IQSWTE0Vgz-fXCA"><img src="../static/Happy_Songs/happy hindi.png"></a>
+                
+            </div>
+        </div>
+    
+</body>
+</html>

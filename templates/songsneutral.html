@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy_Songs</title>
+    <!-- <link rel="stylesheet" href="happy.css"> -->
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* background-image: linear-gradient(rgba(192, 190, 236, 0.5),rgba(224, 224, 235, 0.5)),url(Images/img4.png);
+        background-size: cover;
+        background-repeat: no-repeat; */
+    }
+
+    img{
+        width: 300px;
+        height: auto;
+        margin: 5px;
+        border: 6px double black;
+    }   
+
+    .img{
+        width: 500px;
+        height: 500px;
+        border: 4px solid black;
+        margin: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(108, 233, 220, 0.5),rgba(231, 96, 125, 0.5)),url(../static/playlist\ back.jpeg);
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        justify-content: center;
+        text-align: center;
+    }
+    .box{
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+        transition: 1s;
+    }
+    .box img:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    </style>
+</head>
+
+<body>
+        <div class="header">
+            <div class="box">
+                <a href="https://open.spotify.com/playlist/092jaD7UkO9uS0f2YSTvIn?si=YYz2xRD8TwWuW_50dIN8UQ"><img src="../static/Neutral_Songs/neutral telugu.png"></a>
+                <a href="https://open.spotify.com/playlist/7c9S3ukmrwSKNizwPX1yng?si=-u2kSb7fT86KsZn_7U-_Uw"><img src="../static/Neutral_Songs/neutral english.png"></a>
+                <a href="https://open.spotify.com/playlist/3A52c4QFmPWg6e8UJnBs9w?si=9bUGpeVnTxaLDYQGGSRplw"><img src="../static/Neutral_Songs/nrutral hindi.png"></a>
+
+                
+            </div>
+        </div>
+    
+</body>
+</html>
